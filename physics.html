@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Hirokazu Miyake | Physics</title>
+		<link href='http://fonts.googleapis.com/css?family=Quando' rel='stylesheet' type='text/css'>
+		<!--<link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>-->
+		<style>
+			body{
+				background-color:#F5F5F5;
+				/*F5F5F5 white smoke; FFEFD5 papaya whip; FAF0E6 linen;
+				D3D3D3 light gray; E6E6FA lavender; DCDCDC gainsboro;
+				F0F8FF alice blue; F0FFFF azure*/
+				/*background-color:#F0FFFF;*/
+				/*background-color: rgb(230, 255, 230)*/;
+			}
+
+			div p {
+				font-size:1.1em;
+			}
+
+			#name{
+				font-family:"Quando","Rockwell",serif;
+				font-size:1em;
+				font-weight:lighter;
+				text-align:center;
+				margin: auto;
+				border-bottom:thin solid black;
+				width:80%;
+				/*padding-bottom:1em;*/
+				margin-top:2.0em;
+			}
+
+			div#hmenu {
+				margin: 0;
+				padding: .3em 0 .3em 0;
+				/*background: #ddeebb;*/
+				width: 100%;
+				text-align: center;
+			}
+
+			div#hmenu ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			div#hmenu ul li {
+				margin: 0;
+				padding: 0;
+				display: inline;
+			}
+
+			div#hmenu ul a:link{
+				margin: 0;
+				/*padding: .3em .4em .3em .4em;*/
+				text-decoration: none;
+				/*font-weight: bold;*/
+				font-size: medium;
+				/*color: #004415;*/
+
+				/*display: block;*/
+				/*Controls the width of the top horizontal menu items*/
+				padding: .2em 2.0em .2em 2.0em;
+				color: black;
+				font-family: "Quando","Rockwell",serif;
+				font-size: 1.25em;
+
+				/*display:block;
+				width: 8em;
+				text-decoration: none;
+				text-align: center;
+				color:black;
+				font-family: "Rockwell",sans-serif;
+				border-radius:15px;
+				font-size:1.5em;*/
+			}
+
+			div#hmenu ul a:hover{
+				/*background-color:#dddddd;*/
+				background-color:#808080;
+				border-radius:15px;
+				color: white;
+			}
+
+			div#hmenu ul a:visited{
+				color: black;
+			}
+			div#hmenu ul a:visited:hover{
+				color: white;
+			}
+
+			/* Nice and simple implementation of a sticky footer
+			http://mystrd.at/modern-clean-css-sticky-footer/
+			http://mystrd.at/data/sticky_footer.html*/
+			html {
+				position: relative;
+				min-height: 100%;
+			}
+			body {
+				margin: 0 0 100px; /* bottom = footer height */
+			}
+			footer {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				height: 100px;
+				width: 100%;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div>
+		<div id="name">
+			<h1 translate="no">Hirokazu Miyake</h1>
+		</div>
+		<div id="hmenu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="physics.html">Physics</a></li>
+				<li><a href="datascience.html">Data Science</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+
+		<div style="margin: auto; border-bottom:thin solid black; width:80%; margin-bottom:2em"></div>
+
+<!--Tips for aligning divs horizontally without using float-->
+<!--https://stackoverflow.com/questions/3619233/div-side-by-side-without-float-->
+<!--https://www.sitepoint.com/community/t/left-right-aligned-divs-on-the-same-line-without-floats/224534/2-->
+
+		<div style="padding-bottom:1em">
+			<h2 style="text-align:center; font-family:Quando,Rockwell,serif" id="Research">Physics</h2>
+			<p style="margin-left:10%; margin-right:10%">
+				I've worked on two main topics in recent years. One is in the
+				area of ultracold atoms, and the other is in the area of nanophotonics.
+				Both are broadly under the field of atomic, molecular and optical (AMO) physics.
+				With ultracold atoms,
+				my goal is to study interesting quantum phenomena whose understanding could help
+				improve atomic clocks for precise time keeping.
+				With nanophotonics, my goal is to create new nanophotonic devices
+				with potential applications in optical telecommunications and
+				data communications.
+				Follow the links below to learn more about each of these areas.
+			</p>
+			<div style="margin-left:10%; margin-right:10%">
+				<div style="display: inline-block; width: 49%;">
+				<!--<div style="width:49%; float:left">-->
+					<h3 style="font-family:Quando,Rockwell,serif; text-align:center; margin-bottom: -2.5%">Ultracold Atoms</h3>
+					<img>
+						<a href="physics/coldatoms.html"><img src="bec.png" alt="CCD image of a Bose-Einstein condensate" title="CCD image of a Bose-Einstein condensate" style="height:14em;margin-left:auto;margin-right:auto;display:block"></a>
+					</img>
+				</div>
+				<div style="display: inline-block; width: 49%;">
+				<!--<div style="width:49%; float:right">-->
+					<h3 style="font-family:Quando,Rockwell,serif; text-align:center; margin-bottom: -2.5%">Topological Nanophotonics</h3>
+					<img>
+						<a href="physics/nanophotonics.html"><img src="gaas_grating.png" alt="SEM image of a photonic crystal" title="SEM image of a photonic crystal" style="height:14em;margin-left:auto;margin-right:auto;display:block"></a>
+					</img>
+				</div>
+		  </div>
+		</div>
+
+		<footer>
+		<div style="border-top:thin solid black; width:80%; margin:auto; margin-bottom:2.0em">
+			<p style="text-align:center">
+				<img src="empty.png" align="left" width="80em" height="10em">
+				<a target="_blank" href="http://www.umd.edu">
+					<!--<img src="http://www.urhome.umd.edu/trademarks/marks/gr/primary.gif" alt="University of Maryland" align="left" height="45">-->
+					<!--<img src="umd_logo.gif" alt="University of Maryland" align="left" height="45">-->
+					<img src="primary.png" alt="University of Maryland" align="left" height="48em">
+				</a>
+				<img src="empty.png" align="right" width="80em" height="10em">
+				<a target="_blank" href="http://www.jqi.umd.edu">
+					<!--<img src="http://jqi.umd.edu/sites/default/files/downloads/jqi_2-line_10-23_black_rev_150.png" alt="JQI logo" align="middle" height="50">-->
+					<img src="jqi_logo.png" alt="JQI logo" align="right" height="50em">
+				</a>
+				<!--<a target="_blank" href="http://www.nist.gov">-->
+					<!--<img src="http://upload.wikimedia.org/wikipedia/commons/e/ee/NIST_logo.svg" alt="NIST logo" align="right" height="42">-->
+					<!--<img src="nist_logo.jpg" alt="NIST logo" align="right" height="42">-->
+					<!--http://www.mse.umd.edu/logos-->
+					<!--<img src="nist_logo.jpg" alt="NIST logo" align="right" height="52">-->
+					<!--<img src="nist_logo2.png" alt="NIST logo" align="right" height="52">
+				</a>-->
+			</p>
+		</div>
+	</footer>
+	</body>
+</html>
