@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Hirokazu Miyake | Physics | Ultraold Atoms</title>
+		<link href='http://fonts.googleapis.com/css?family=Quando' rel='stylesheet' type='text/css'>
+		<!--<link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>-->
+		<style>
+			body{
+				background-color:#F5F5F5;
+				/*F5F5F5 white smoke; FFEFD5 papaya whip; FAF0E6 linen;
+				D3D3D3 light gray; E6E6FA lavender; DCDCDC gainsboro;
+				F0F8FF alice blue; F0FFFF azure*/
+				/*background-color:#F0FFFF;*/
+				/*background-color: rgb(230, 255, 230)*/;
+			}
+
+			div p {
+				font-size:1.1em;
+			}
+
+			#name{
+				font-family:"Quando","Rockwell",serif;
+				font-size:1em;
+				font-weight:lighter;
+				text-align:center;
+				margin: auto;
+				border-bottom:thin solid black;
+				width:80%;
+				/*padding-bottom:1em;*/
+				margin-top:2.0em;
+			}
+
+			div#hmenu {
+				margin: 0;
+				padding: .3em 0 .3em 0;
+				/*background: #ddeebb;*/
+				width: 100%;
+				text-align: center;
+			}
+
+			div#hmenu ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			div#hmenu ul li {
+				margin: 0;
+				padding: 0;
+				display: inline;
+			}
+
+			div#hmenu ul a:link{
+				margin: 0;
+				/*padding: .3em .4em .3em .4em;*/
+				text-decoration: none;
+				/*font-weight: bold;*/
+				font-size: medium;
+				/*color: #004415;*/
+
+				/*display: block;*/
+				/*Controls the width of the top horizontal menu items*/
+				padding: .2em 2.0em .2em 2.0em;
+				color: black;
+				font-family: "Quando","Rockwell",serif;
+				font-size: 1.25em;
+
+				/*display:block;
+				width: 8em;
+				text-decoration: none;
+				text-align: center;
+				color:black;
+				font-family: "Rockwell",sans-serif;
+				border-radius:15px;
+				font-size:1.5em;*/
+			}
+
+			div#hmenu ul a:hover{
+				/*background-color:#dddddd;*/
+				background-color:#808080;
+				border-radius:15px;
+				color: white;
+			}
+
+			div#hmenu ul a:visited{
+				color: black;
+			}
+			div#hmenu ul a:visited:hover{
+				color: white;
+			}
+
+			/* Nice and simple implementation of a sticky footer
+			http://mystrd.at/modern-clean-css-sticky-footer/
+			http://mystrd.at/data/sticky_footer.html*/
+			html {
+				position: relative;
+				min-height: 100%;
+			}
+			body {
+				margin: 0 0 100px; /* bottom = footer height */
+			}
+			footer {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				height: 100px;
+				width: 100%;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div>
+		<div id="name">
+			<h1 translate="no">Hirokazu Miyake</h1>
+		</div>
+		<div id="hmenu">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../physics.html">Physics</a></li>
+				<li><a href="../datascience.html">Data Science</a></li>
+				<li><a href="../publications.html">Publications</a></li>
+				<li><a href="../about.html">About</a></li>
+			</ul>
+		</div>
+
+		<div style="margin: auto; border-bottom:thin solid black; width:80%; margin-bottom:2em"></div>
+
+		<div style="padding-bottom:1em">
+			<h2 style="text-align:center; font-family:Quando,Rockwell,serif" id="Research">Physics: Ultracold Atoms</h2>
+			<p style="margin-left:10%; margin-right:10%">The realization of Bose-Einstein condensates in dilute
+				ultracold atomic gases in 1995 opened a new direction in the study of macroscopic quantum
+				phenomena [1, 2] and was acknowledged by a <a target="_blank" href="http://www.nobelprize.org/nobel_prizes/physics/laureates/2001/">Nobel Prize</a> in 2001.
+				Many phenomena that were previously only accessible in condensed
+				matter such as <a target="_blank" href="https://en.wikipedia.org/wiki/Superfluidity">superfluidity</a>
+				in liquid helium and <a target="_blank" href="https://en.wikipedia.org/wiki/Superconductivity">superconductivity</a> in various solid
+				state materials were now also open for investigation in atomic systems with the tools
+				developed in atomic, molecular and optical physics [3]. I'm currently working with <a target="_blank" href="http://groups.jqi.umd.edu/campbell/">Dr. Gretchen Campbell</a> at the
+				National Institute of Standards and Technology and the Joint Quantum Institute on an ultracold strontium experiment. Previously I was involved in the study of ultracold rubidium atoms
+				in the group of <a target="_blank" href="http://cua.mit.edu/ketterle_group/">Professor Wolfgang Ketterle</a> at the Massachusetts Institute of Technology.</p>
+
+				<p style="margin-left:10%; margin-right:10%"> Below is a video obtained
+					in the lab showing the
+				creation of a strontium Bose-Einstein condensate in real-time, over 3 seconds.
+			  Notice that initially it looks like there are no atoms there. That's because
+			  the atoms are too hot and they're not dense enough to see. However, once the
+			  evaporation proceeds and the atoms are cold enough, they condensed into a
+			  dense cloud of atoms and we can see them.</p>
+
+				<!--<video width="320" height="240" controls>-->
+				<video style="height:25em;margin-left:auto;margin-right:auto;display:block" controls poster="bec_formation.png">
+				   <source src="bec_formation.mp4" type="video/mp4">
+					 Your browser does not support the HTML video tag.
+				</video>
+
+				<!--One of the major thrusts of the field, occasionally called ‘quantum simulation,’ is to use
+				ultracold atoms to realize novel quantum phases of matter which are very difficult
+				or even impossible to study in solid state systems or with supercomputers [4]. In
+				particular, the ability to generate an optical lattice potential to create a
+				crystalline structure similar to condensed matter has allowed the field to move
+				in the direction of creating systems directly analogous to novel solid-state
+				materials where the interaction energy between constituent particles in a lattice
+				can be larger than their kinetic energy [5]. I was involved in these studies
+				in the group of Professor <a target="_blank" href="http://cua.mit.edu/ketterle_group/">Wolfgang Ketterle</a> at the Massachusetts Institute of Technology.<br><br>-->
+				<p style="margin-left:10%; margin-right:10%">Applications of these studies include
+				gaining a better understanding of strongly interacting materials which could lead
+				to useful and better materials, and new methods of sensing and measurments for
+				position, timing and navigation. Potentially better materials
+				include those for magnetic data storage and transportation
+			  through <a target="_blank" href="https://en.wikipedia.org/wiki/Spintronics">spintronics</a>, where the spin of an electron is used directly to store
+				and transport information. Potential new platforms for position, timing and
+				navigation include ultrastable <a target="_blank" href="https://en.wikipedia.org/wiki/Atomic_clock">atomic clocks</a> and inertial sensing
+				systems which for example do not rely on the global positioning system.</p>
+
+				<figure>
+					<img src="coldatomexpt.png" alt="Vacuum chamber and cold atoms" title="Vacuum chamber and cold atoms" style="height:16em;margin-left:auto;margin-right:auto;display:block">
+					<figcaption style="text-align:center;padding-top:0.5em;margin-left:10%; margin-right:10%;font-family:sans-serif">
+						Left figure is a vacuum chamber where ultracold atoms are produced.
+						Right figure is a false color image of a Bose-Einstein condensate (BEC)
+						taken with a CCD camera. The BEC is a few micrometers in size.
+					</figcaption>
+				</figure>
+
+			<ul style="list-style-type: none">
+				<li><h4 style="margin-left:10%; margin-right:10%; font-family:Quando,Rockwell,serif">Engineering Artificial Magnetic Fields for Ultracold Atoms in a Lattice</h4>
+					<p style="margin-left:10%; margin-right:10%">One project I led in the past was creating
+						artificial magnetic fields for ultracold atoms in optical lattices to study new
+						topological phases of matter [4]. Systems of charged particles in magnetic fields
+						have led to many discoveries such as the <a target="_blank" href="https://en.wikipedia.org/wiki/Quantum_Hall_effect">integer</a> and <a target="_blank" href="https://en.wikipedia.org/wiki/Fractional_quantum_Hall_effect">fractional</a> quantum Hall
+						effects and have become important paradigms of quantum many-body physics.
+						Generalizations have led to the realization of topological insulators, initially in
+						condensed matter [5] but also in photonic systems [6, 7]. These systems are
+						interesting because for example, certain fractional quantum Hall
+						states are thought to be ideal mediums for quantum information processing
+						because their topological properties make them robust to disturbances.<br><br>
+						We were the first, concurrently with the group of Immanuel Bloch [8],
+						to experimentally realize a uniform magnetic field for ultracold atoms
+						in optical lattices. Specifically, we realized the Harper
+						Hamiltonian [9], a lattice model for charged particles in a
+						uniform magnetic field with complex tunneling whose energy spectrum is the fractal
+						Hofstadter butterfly [10]. This opened the way for further studies of new
+			 			topological states of matter with ultracold atoms. </p>
+					<figure>
+						<img src="harper.jpg" alt="Schematic and results of realizing the Harper Hamiltonian" title="Schematic and results of realizing the Harper Hamiltonian" style="height:18em;margin-left:auto;margin-right:auto;display:block">
+						<figcaption style="text-align:center;padding-top:0.5em;margin-left:10%; margin-right:10%;font-family:sans-serif">Left figure is a schematic
+								of the setup we used to realize the Harper Hamiltonian. The black circles represent
+								the atoms arranged in a lattice. There is a linear potential energy
+								offset in the horizontal direction represented by the green incline.
+								We shine two laser beams (red and blue arrows) frequency offset
+								by exactly the linear energy offset to induce laser-assisted tunneling
+								which leads to an artificial magnetic field for the charge neutral atoms.
+								Right figure shows experimental data, where we show we can control
+								the tunneling amplitudes by varying the laser intensity. The behavior
+								is in qualitative agreement with theoretical calculations.
+							</figcaption>
+					</figure>
+					</li>
+				<li><h4 style="margin-left:10%; margin-right:10%; font-family:Quando,Rockwell,serif">Probing the Quantum Mechanical Properties of Ultracold Atoms in a Lattice with Bragg Scattering</h4>
+					<p style="margin-left:10%; margin-right:10%">Another project I led was applying the
+						technique of Bragg scattering to ultracold atoms in optical lattices with the goal of
+						studying new magnetic phases of matter [11]. One reason magnetic phases of matter are
+						interesting is because they are believed to form the basis of
+						<a target="_blank" href="https://en.wikipedia.org/wiki/High-temperature_superconductivity">high-temperature superconductors</a> [12].
+						Bragg scattering is one technique that can be used to probe magnetic ordering [13]. Bragg scattering relies on the
+						interference of waves scattered coherently from a collection of particles and
+						is the principle behind <a target="_blank" href="https://en.wikipedia.org/wiki/X-ray_crystallography">x-ray</a> and <a target="_blank" href="https://en.wikipedia.org/wiki/Neutron_scattering">neutron</a> scattering to determine the spatial and spin
+						ordering of materials at the angstrom scale.</p>
+					<p style="margin-left:10%; margin-right:10%">We showed that Bragg scattering
+						is a powerful technique to study Heisenberg-uncertainty-limited
+					  wavefunction behavior (in both position and momentum space) as well
+						as to study quantum phase transitions in ultracold atomic
+						systems by looking for the revival of Bragg-scattered interference peaks.
+						Our work paved the way for other groups to apply
+						the technique of Bragg scattering to show the onset of antiferromagnetism
+						in a fermionic system [14].</p>
+						<figure>	<img src="bragg.jpg" alt="Schematic and results of applying Bragg scattering" title="Schematic and results of applying Bragg scattering" style="height:18em;margin-left:auto;margin-right:auto;display:block">
+							<figcaption style="text-align:center;padding-top:0.5em;margin-left:10%; margin-right:10%;font-family:sans-serif">Left figure is a schematic
+								of the setup we used to observe Bragg scattering. The blue circles represent the atoms
+								and the red arrows represent the incoming and outgoing Bragg light. Right figure is experimental data showing
+								the revival of Bragg scattered light as the lattice depth goes from high (red) to medium (blue) to low (black).
+								Inset shows a theoretical simulation of the expected space and time evolution of the atomic wavefunctions.
+							</figcaption>
+						</figure>
+					</li>
+				</ul>
+				<h3 style="margin-left:10%; margin-right:10%; font-family:Quando,Rockwell,serif">References</h3>
+				<ol style="margin-left:10%; margin-right:10%;font-size:1.1em">
+				<li>M. H. Anderson <i>et al</i>., Science 269, 198 (1995)</li>
+				<li>K. B. Davis <i>et al</i>., Phys. Rev. Lett. 75, 3969 (1995)</li>
+				<li>W. Ketterle, Physica B: Condensed Matter 280, 11 (2000)</li>
+				<!--<li>A. Trabesinger, Nature Phys. 415, 39 (2002)</li>-->
+				<!--<li>M. Greiner <i>et al</i>., Nature 415, 39 (2002)</li>-->
+				<li>H. Miyake <i>et al</i>., Phys. Rev. Lett. 111, 185302 (2013)</li>
+				<li>M. K&oumlnig <i>et al</i>., Science 318, 766 (2007)</li>
+				<li>M. Rechtsman <i>et al</i>., Nature 496, 196 (2013)</li>
+				<li>M. Hafezi <i>et al</i>., Nature Photon. 7, 1001 (2013)</li>
+				<li>M. Aidelsburger <i>et al</i>., Phys. Rev. Lett. 111, 185301 (2013)</li>
+				<li>P. G. Harper, Proc. Phys. Soc. London Sect. A 68, 874 (1955)</li>
+				<li>D. R. Hofstadter, Phys. Rev. B 14, 2239 (1976)</li>
+				<li>H. Miyake <i>et al</i>., Phys. Rev. Lett. 107, 175302 (2011)</li>
+				<li>P. A. Lee, N. Nagaosa, and X.-G. Wen, Rev. Mod. Phys. 78, 17 (2006)</li>
+				<li>C. G. Shull and J. Samuel Smart, Phys. Rev. 76, 1256 (1949)</li>
+				<li>R. A. Hart, <i>et al</i>., Nature 519, 211 (2015)</li>
+			</ol>
+		</div>
+
+		
+	</body>
+</html>
