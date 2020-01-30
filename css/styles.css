@@ -1,12 +1,3 @@
-/* Things to play with
-    1. Smarter use of boxes
-    2. Navigation bar
-    3. Color scheme
-    4. Add boxes?
-
-    TAKE A LOOK AT PG 323-326 FOR NAVIGATION DESIGN
-*/
-
 body{
     width: 80%;
     margin: auto;
@@ -14,46 +5,18 @@ body{
     margin-bottom: 3em;
     border-bottom: medium solid;
     font-family: sans-serif;
-    /*font-size: 18px;
-    line-height: 1.5em;*/
-    /*text-align: justify;*/
-    /*background-color: LightGray;*/
-}
-
-/*testing*/
-div {
-    /*background-color: LightGray;*/
-    /*width: 80%;*/
-    /*margin: auto;*/ /*pg 314*/
-    /*border-radius:30px;*/ /*pg 321*/
-    /*box-shadow: 0px 0px 10px #777777;*/ /*pg. 320*/
-    /*border-style: solid;*/
 }
 
 #headerName{
-    /*font-family:"Quando","Rockwell",serif;*/
     font-family:sans-serif;
-    /*font-weight:lighter;*/
-
-    /*margin: auto;*/
-    /*border-bottom:thin solid black;*/ /*Original way to add line*/
-    /*width:80%;*/
-    /*padding-bottom:1em;*/
-    /*margin-top: 1.0em;
-    margin-bottom: 1.0em;
-    margin-left: auto;
-    margin-right: auto;*/
     text-align: center;
     margin: 0;
-    padding: 1em;*/ /*pg 313*/
-    /*background-color: LightGray;*/ /*pg 250*/
+    padding: 1em;
 }
 
 #headerMenu {
     margin: 0;
     padding: 0.5em 0 0.5em 0;
-    /*background: #ddeebb;*/
-    /*width: 100%;*/
     text-align: center;
     font-weight: bold;
     border-top: medium solid black;
@@ -68,33 +31,15 @@ div {
 
 #headerMenu a:link{
     margin: 0;
-    /*padding: .3em .4em .3em .4em;*/
     text-decoration: none;
-    /*font-weight: bold;*/
     font-size: medium;
-    /*color: #004415;*/
-
-    /*display: block;*/
-    /*Controls the width of the top horizontal menu items*/
     padding: .2em 2.0em .2em 2.0em;
     color: black;
-    /*font-family:"Quando","Rockwell",serif;*/
     font-family:sans-serif;
-    /*font-size: 1.25em;*/
     font-size: 20px;
-
-    /*display:block;
-    width: 8em;
-    text-decoration: none;
-    text-align: center;
-    color:black;
-    font-family: "Rockwell",sans-serif;
-    border-radius:15px;
-    font-size:1.5em;*/
 }
 
 #headerMenu a:hover{
-    /*background-color:#dddddd;*/
     background-color:#808080;
     border-radius:15px;
     color: white;
@@ -115,27 +60,8 @@ p {
 }
 
 li {
-    margin-top: 0.5em; /*pg 334*/
-    /*line-height: 1.5em;*/ /*pg 351*/
+    margin-top: 0.5em;
 }
-
-/* Nice and simple implementation of a sticky footer
-http://mystrd.at/modern-clean-css-sticky-footer/
-http://mystrd.at/data/sticky_footer.html*/
-/*html {
-    position: relative;
-    min-height: 100%;
-}*/
-/*body {
-    margin: 0 0 100px;*/ /* bottom = footer height */
-/*}*/
-/*footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-}*/
 
 #profile-photo {
     float: left;
