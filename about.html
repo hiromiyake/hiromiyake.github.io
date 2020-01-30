@@ -3,203 +3,60 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Hirokazu Miyake | About</title>
-		<!--<link href='http://fonts.googleapis.com/css?family=Quando' rel='stylesheet' type='text/css'>-->
-		<style>
-			body{
-				/*background-color:#F5F5F5;*/
-				/*F5F5F5 white smoke; FFEFD5 papaya whip; FAF0E6 linen;
-				D3D3D3 light gray; E6E6FA lavender; DCDCDC gainsboro;
-				F0F8FF alice blue; F0FFFF azure*/
-				/*background-color:#F0FFFF;*/
-				/*background-color: rgb(230, 255, 230)*/;
-			}
-
-			div p {
-				font-size:1.1em;
-			}
-
-			#name{
-				font-family:sans-serif;
-				/*font-family:"Quando","Rockwell",serif;*/
-				font-size:1em;
-				font-weight:lighter;
-				text-align:center;
-				margin: auto;
-				border-bottom:thin solid black;
-				width:80%;
-				/*padding-bottom:1em;*/
-				margin-top:2.0em;
-			}
-
-			div#hmenu {
-				margin: 0;
-				padding: .3em 0 .3em 0;
-				/*background: #ddeebb;*/
-				width: 100%;
-				text-align: center;
-			}
-
-			div#hmenu ul {
-				list-style: none;
-				margin: 0;
-				padding: 0;
-			}
-
-			div#hmenu ul li {
-				margin: 0;
-				padding: 0;
-				display: inline;
-			}
-
-			div#hmenu ul a:link{
-				margin: 0;
-				/*padding: .3em .4em .3em .4em;*/
-				text-decoration: none;
-				/*font-weight: bold;*/
-				font-size: medium;
-				/*color: #004415;*/
-
-				/*display: block;*/
-				/*Controls the width of the top horizontal menu items*/
-				padding: .2em 2.0em .2em 2.0em;
-				color: black;
-				font-family: sans-serif;
-				/*font-family: "Quando","Rockwell",serif;*/
-				font-size: 1.25em;
-
-				/*display:block;
-				width: 8em;
-				text-decoration: none;
-				text-align: center;
-				color:black;
-				font-family: "Rockwell",sans-serif;
-				border-radius:15px;
-				font-size:1.5em;*/
-			}
-
-			div#hmenu ul a:hover{
-				/*background-color:#dddddd;*/
-				background-color:#808080;
-				border-radius:15px;
-				color: white;
-			}
-
-			div#hmenu ul a:visited{
-				color: black;
-			}
-			div#hmenu ul a:visited:hover{
-				color: white;
-			}
-
-			/* Nice and simple implementation of a sticky footer
-			http://mystrd.at/modern-clean-css-sticky-footer/
-			http://mystrd.at/data/sticky_footer.html*/
-			html {
-				position: relative;
-				min-height: 100%;
-			}
-			body {
-				margin: 0 0 100px; /* bottom = footer height */
-			}
-			footer {
-				position: absolute;
-				left: 0;
-				bottom: 0;
-				height: 100px;
-				width: 100%;
-			}
-
-			#profile-photo {
-    		float: left;
-    		border: 1px solid black;
-				/*margin: top right bottom left*/
-    		/*margin: 0px 0px 15px 20px;*/
-				margin: 0em 2em 1em 0em;
-			}
-
-		</style>
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+        <link href="figures/h-favicon.png" rel="icon">
 	</head>
-	<body>
-		<div>
-		<div id="name">
-			<h1 translate="no">Hirokazu Miyake</h1>
-		</div>
-		<div id="hmenu">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="physics.html">Physics</a></li>
-				<li><a href="datascience.html">Data Science</a></li>
-				<li><a href="publications.html">Publications</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</div>
 
-		<div style="margin: auto; border-bottom:thin solid black; width:80%; margin-bottom:2em"></div>
+    <body>
+        <h1 id="headerName" translate="no">Hirokazu Miyake</h1>
+		<ul id="headerMenu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="physics.html">Physics</a></li>
+			<li><a href="datascience.html">Data Science</a></li>
+			<li><a href="publications.html">Publications</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
 
-		<div>
-			<h2 style="text-align:center; font-family:sans-serif" id="About">About</h2>
-			<!--<h2 style="text-align:center; font-family:Quando,Rockwell,serif" id="About">About</h2>-->
+		<h2 style="text-align:center">About</h2>
 
-			<p style="text-align:center; padding-bottom:1em">
-				<a target="_blank" href="https://www.linkedin.com/in/hirokazu-miyake/"><img src="linkedin.png" alt="LinkedIn" hspace="50em" height="40em"></a>
-		 		<a target="_blank" href="https://github.com/hiromiyake"><img src="GitHub.png" alt="GitHub" hspace="50em" height="40em"></a>
-			</p>
-
-			<p style="margin-left:10%; margin-right:10%">
-				<img src="photo.jpg" id="profile-photo" width="150em">
-				<!--<a target="_blank" href="http://jqi.umd.edu/people/hirokazu-miyake"><img src="photo.jpg" id="profile-photo" width="150em"></a>-->
-				I'm currently a postdoctoral associate at the
-				<a target="_blank" href="http://www.jqi.umd.edu">Joint Quantum Institute</a> (JQI).
-				JQI is a joint institute between the <a target="_blank" href="http://www.umd.edu">University of Maryland</a>
-				and the <a target="_blank" href="http://www.nist.gov">National Institute of Standards and Technology</a>, whose purpose is to explore the frontiers
-				of quantum science and technology.</p>
-
-			<p style="margin-left:10%; margin-right:10%">Aside from physics and data science,
-				I'm broadly interested in how science and scientific thinking can improve
-				society and allow us to lead better lives. For example, I
-				was previously employed as an Associate Physical Scientist at the
-				<a target="_blank" href="http://www.rand.org">RAND Corporation</a>
-				conducting public policy research and analysis.
-				I've also participated in numerous science education and outreach
-				activities to convey the excitement of science to students at all levels
-				of education. Some of my activities in this area are described <a target="_blank" href="https://esp.mit.edu/teach/teachers/hmiyake/bio.html">here</a> and <a target="_blank" href="http://www.prnewswire.com/news-releases/students-from-the-pennsylvania-cyber-charter-school-discuss-physics-education-with-nations-top-graduate-students-138640414.html">here</a>.
-			</p>
-
-			<p style="margin-left:10%; margin-right:10%">I obtained a Ph.D. from the
-				<a target="_blank" href="http://www.web.mit.edu/physics/">Department of Physics</a>
-				at the <a target="_blank" href="http://www.web.mit.edu">Massachusetts
-				Institute of Technology</a> in the group of Professor
-				<a target="_blank" href="http://cua.mit.edu/ketterle_group/">Wolfgang Ketterle</a>,
-				working on ultracold rubidium atoms in optical lattices to study new phases of quantum matter.
-				I obtained a B.A. from
-				<a target="_blank" href="http://www.cornell.edu">Cornell University</a>
-				majoring in physics and mathematics. While there I worked with Professor
-				<a target="_blank" href="http://davisgroup.lassp.cornell.edu">J. C. S&eacuteamus Davis</a>
-				on measuring gravity at submicron length scales, and Professor
-				<a target="_blank" href="https://wiki.classe.cornell.edu/People/AndersRyd">Anders Ryd</a>
-				on measuring the decay properties of <em>D</em> mesons to two kaon particles.
-			</p>
-
-			<!--<h2 style="text-align:center; font-family:Quando,Rockwell,serif">Contact Information</h2>
-			<p style="text-align:center;">You can reach me at <img src="email.png" align="center" width="170em"></p>-->
-			<!--<p style="text-align:center; padding-bottom:1em">
-				<a target="_blank" href="https://www.linkedin.com/in/hirokazu-miyake/"><img src="linkedin.png" alt="LinkedIn" hspace="50em" height="40em"></a>
-		 		<a target="_blank" href="https://github.com/hiromiyake"><img src="GitHub.png" alt="GitHub" hspace="50em" height="40em"></a>
-			</p>-->
-
-			<!--<p style="text-align:center; margin-top:-1.5em">I can be reached here.</p>-->
-		</div>
-	</div>
-
-	<!--<footer>
-	<div style="border-top:thin solid black; width:80%; margin:auto; margin-bottom:2.0em">
 		<p style="text-align:center">
-			<img src="empty.png" align="left" width="80em" height="10em">
-			<a target="_blank" href="http://www.umd.edu"><img src="primary.png" alt="University of Maryland" align="left" height="48em"></a>
-			<img src="empty.png" align="right" width="80em" height="10em">
-			<a target="_blank" href="http://www.jqi.umd.edu"><img src="jqi_logo.png" alt="JQI logo" align="right" height="50em"></a>
+			<a target="_blank" href="https://www.linkedin.com/in/hirokazu-miyake/">
+                <img src="figures/linkedin.png" alt="LinkedIn" hspace="50em" height="40em"></a>
+	 		<a target="_blank" href="https://github.com/hiromiyake">
+                <img src="figures/GitHub.png" alt="GitHub" hspace="50em" height="40em"></a>
 		</p>
-	</div>
-</footer>-->
+
+		<p style="padding-top:1em">
+			<img src="figures/photo.jpg" id="profile-photo" width="150px">
+            I'm currently a research scientist at
+            <a target="_blank" href="https://www.rakuten.us/">Rakuten</a>,
+            belonging more specifically to the research division called
+            <a target="_blank" href="https://rit.rakuten.co.jp/">
+            Rakuten Institute of Technology</a>.
+            I'm primarily working on applying machine learning techniques,
+            including deep learning, to text-based data to address
+            challenges in the e-commerce domain. More generally, I'm
+            interested in how data and data analysis techniques
+            can help improve things in the world.
+        </p>
+        <br>
+		<p>My academic background is in physics.
+            I obtained a Ph.D. from the
+			<a target="_blank" href="https://www.web.mit.edu/physics/">Department of Physics</a>
+			at the
+            <a target="_blank" href="https://www.mit.edu/">Massachusetts
+			Institute of Technology</a> in the group of Professor
+			<a target="_blank" href="https://www.rle.mit.edu/cua_pub/ketterle_group/home.htm">Wolfgang Ketterle</a>,
+			working on ultracold rubidium atoms in optical lattices to
+            study new phases of quantum matter. I obtained a B.A. from
+			<a target="_blank" href="https://www.cornell.edu">Cornell University</a>
+			majoring in physics and mathematics. While there I worked
+            with Professor
+			<a target="_blank" href="http://davis-group-quantum-matter-research.ie/">J. C. S&eacuteamus Davis</a>
+			on measuring gravity at submicron length scales, and Professor
+			<a target="_blank" href="https://wiki.classe.cornell.edu/People/AndersRyd">Anders Ryd</a>
+			on measuring the decay properties of <em>D</em> mesons to two
+            kaon particles.
+		</p>
 	</body>
 </html>

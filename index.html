@@ -1,179 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Hirokazu Miyake | Home</title>
-		<!--<link href='http://fonts.googleapis.com/css?family=Quando' rel='stylesheet' type='text/css'>-->
-		<!--<link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>-->
-		<style>
-			body{
-				/*background-color:#F5F5F5;*/
-				/*F5F5F5 white smoke; FFEFD5 papaya whip; FAF0E6 linen;
-				D3D3D3 light gray; E6E6FA lavender; DCDCDC gainsboro;
-				F0F8FF alice blue; F0FFFF azure*/
-				/*background-color:#F0FFFF;*/
-				/*background-color: rgb(230, 255, 230)*/;
-				/*font-size:1.2em;*/
-			}
+    <head>
+        <meta charset="utf-8">
+        <title>Hirokazu Miyake | Home</title>
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+        <link href="figures/h-favicon.png" rel="icon">
+    </head>
 
-			div p {
-				font-size:1.1em;
-			}
-
-			#name{
-				/*font-family:"Quando","Rockwell",serif;*/
-				font-family:sans-serif;
-				font-size:1em;
-				font-weight:lighter;
-				text-align:center;
-				margin: auto;
-				border-bottom:thin solid black;
-				width:80%;
-				/*padding-bottom:1em;*/
-				margin-top:2.0em;
-			}
-
-			div#hmenu {
-				margin: 0;
-				padding: .3em 0 .3em 0;
-				/*background: #ddeebb;*/
-				width: 100%;
-				text-align: center;
-			}
-
-			div#hmenu ul {
-				list-style: none;
-				margin: 0;
-				padding: 0;
-			}
-
-			div#hmenu ul li {
-				margin: 0;
-				padding: 0;
-				display: inline;
-			}
-
-			div#hmenu ul a:link{
-				margin: 0;
-				/*padding: .3em .4em .3em .4em;*/
-				text-decoration: none;
-				/*font-weight: bold;*/
-				font-size: medium;
-				/*color: #004415;*/
-
-				/*display: block;*/
-				/*Controls the width of the top horizontal menu items*/
-				padding: .2em 2.0em .2em 2.0em;
-				color: black;
-				/*font-family:"Quando","Rockwell",serif;*/
-				font-family:sans-serif;
-				font-size: 1.25em;
-
-				/*display:block;
-				width: 8em;
-				text-decoration: none;
-				text-align: center;
-				color:black;
-				font-family: "Rockwell",sans-serif;
-				border-radius:15px;
-				font-size:1.5em;*/
-			}
-
-			div#hmenu ul a:hover{
-				/*background-color:#dddddd;*/
-				background-color:#808080;
-				border-radius:15px;
-				color: white;
-			}
-
-			div#hmenu ul a:visited{
-				color: black;
-			}
-			div#hmenu ul a:visited:hover{
-				color: white;
-			}
-
-			/* Nice and simple implementation of a sticky footer
-			http://mystrd.at/modern-clean-css-sticky-footer/
-			http://mystrd.at/data/sticky_footer.html*/
-			html {
-				position: relative;
-				min-height: 100%;
-			}
-			body {
-				margin: 0 0 100px; /* bottom = footer height */
-			}
-			footer {
-				position: absolute;
-				left: 0;
-				bottom: 0;
-				height: 100px;
-				width: 100%;
-			}
-
-		</style>
-	</head>
 	<body>
-		<div>
-		<div id="name">
-			<h1 translate="no">Hirokazu Miyake</h1>
-		</div>
-		<div id="hmenu">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="physics.html">Physics</a></li>
-				<li><a href="datascience.html">Data Science</a></li>
-				<li><a href="publications.html">Publications</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</div>
+        <h1 id="headerName" translate="no">Hirokazu Miyake</h1>
+		<ul id="headerMenu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="physics.html">Physics</a></li>
+			<li><a href="datascience.html">Data Science</a></li>
+			<li><a href="publications.html">Publications</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
 
-		<div style="margin: auto; border-bottom:thin solid black; width:80%; margin-bottom:2em"></div>
-
-		<div>
-			<p style="margin-left:10%; margin-right:10%">I'm currently a postdoctoral associate
-				performing experimental physics research
-				at the <a target="_blank" href="http://www.jqi.umd.edu">Joint
-				Quantum Institute</a>, a joint institute between the
-				<a target="_blank" href="http://www.umd.edu">University of Maryland</a>
-				and the <a target="_blank" href="http://www.nist.gov">National Institute
-				of Standards and Technology</a>, whose purpose is to explore the frontiers
-				of quantum science and technology. I'm also interested in data science,
-				where various quantitative techniques are applied to digital data to gain
-				insights. You can learn more about my interests through the links above.
-			</p>
-		</div>
-
-		<div style="margin-bottom:10%;">
-			<h2 style="margin-left:10%; margin-right:10%; font-family:sans-serif">News</h2>
-			<p style="margin-left:10%; margin-right:10%">
-				November 19, 2019: Experimental measurement of isotope shifts in laser-cooled strontium atoms
-				is published in <a target="_blank" href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033113">Physical Review Research</a>.
-			</p>
-			<p style="margin-left:10%; margin-right:10%">
-				February 9, 2018: Our experimental observation of topological edge states in a nanoscale photonic crystal is
-				published in <a target="_blank" href="http://science.sciencemag.org/content/359/6376/666">Science</a>.
-			</p>
-			<p style="margin-left:10%; margin-right:10%">
-				September 8, 2017: Contributed talk at the <a target="_blank" href="https://confit.atlas.jp/guide/event/jsap2017a/top?lang=en">JSAP</a> conference in Fukuoka, Japan.
-			</p>
-			<p style="margin-left:10%; margin-right:10%">
-				June 26, 2017: Contributed talk at the <a target="_blank" href="http://www.cleoeurope.org">CLEO Europe</a> conference in Munich, Germany.
-			</p>
-			<p style="margin-left:10%; margin-right:10%">
-				November 7, 2016: Our theoretical results on topological edge states in photonic crystals is published in <a target="_blank" href="http://iopscience.iop.org/article/10.1088/1367-2630/18/11/113013">New Journal of Physics</a>.
-			</p>
-			<p style="margin-left:10%; margin-right:10%">
-				September 27, 2016: Invited talk at the <a target="_blank" href="http://thetis.ph.tsukuba.ac.jp/~hatsugai/modules/pico2/?ml_lang=en">Bulk-Edge Correspondence workshop</a> in Kyoto, Japan.
-			</p>
-			<!--<p style="margin-left:10%; margin-right:10%">
-				May 31, 2016: Our proposal and theoretical results of topological edge states in photonic crystals posted on <a target="_blank" href="https://arxiv.org/abs/1605.08822">arxiv</a>.
-			</p>-->
-			<!--<figure>
-				<img src="tpc.jpg" alt="Schematic and electric field intensity of a topological edge state" title="Schematic and electric field intensity of a topological edge state" style="height:12em;margin-left:auto;margin-right:auto;display:block;">
-			</figure>-->
-		</div>
-
-
+		<p style="padding-top: 1.5em">I'm currently a research scientist at
+            <a target="_blank" href="https://www.rakuten.us/">Rakuten</a>,
+            belonging more specifically to the research division called
+            <a target="_blank" href="https://rit.rakuten.co.jp/">
+                Rakuten Institute of Technology</a>.
+            I'm primarily working on applying machine learning techniques,
+            including deep learning, to text-based data to address
+            challenges in the e-commerce domain.
+            My prior experiences include working in the area of
+            experimental quantum physics with applications in quantum
+            computing, as well as performing technical policy analysis
+            for government clients.
+            You can learn more about my interests through the links above.
+		</p>
 	</body>
 </html>

@@ -1,339 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Hirokazu Miyake | Data Science</title>
-		<!--<link href='http://fonts.googleapis.com/css?family=Quando' rel='stylesheet' type='text/css'>-->
-		<style>
-			body{
-				/*background-color:#F5F5F5;*/
-				/*F5F5F5 white smoke; FFEFD5 papaya whip; FAF0E6 linen;
-				D3D3D3 light gray; E6E6FA lavender; DCDCDC gainsboro;
-				F0F8FF alice blue; F0FFFF azure*/
-				/*background-color:#F0FFFF;*/
-				/*background-color: rgb(230, 255, 230)*/;
-			}
+    <head>
+        <meta charset="utf-8">
+        <title>Hirokazu Miyake | Data Science</title>
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+        <link href="figures/h-favicon.png" rel="icon">
+    </head>
 
-			div p {
-				font-size:1.1em;
-			}
-
-			#name{
-				font-family:sans-serif;
-				/*font-family:"Quando","Rockwell",serif;*/
-				font-size:1em;
-				font-weight:lighter;
-				text-align:center;
-				margin: auto;
-				border-bottom:thin solid black;
-				width:80%;
-				/*padding-bottom:1em;*/
-				margin-top:2.0em;
-			}
-
-			div#hmenu {
-				margin: 0;
-				padding: .3em 0 .3em 0;
-				/*background: #ddeebb;*/
-				width: 100%;
-				text-align: center;
-			}
-
-			div#hmenu ul {
-				list-style: none;
-				margin: 0;
-				padding: 0;
-			}
-
-			div#hmenu ul li {
-				margin: 0;
-				padding: 0;
-				display: inline;
-			}
-
-			div#hmenu ul a:link{
-				margin: 0;
-				/*padding: .3em .4em .3em .4em;*/
-				text-decoration: none;
-				/*font-weight: bold;*/
-				font-size: medium;
-				/*color: #004415;*/
-
-				/*display: block;*/
-				/*Controls the width of the top horizontal menu items*/
-				padding: .2em 2.0em .2em 2.0em;
-				color: black;
-				font-family:sans-serif;
-				/*font-family: "Quando","Rockwell",serif;*/
-				font-size: 1.25em;
-
-				/*display:block;
-				width: 8em;
-				text-decoration: none;
-				text-align: center;
-				color:black;
-				font-family: "Rockwell",sans-serif;
-				border-radius:15px;
-				font-size:1.5em;*/
-			}
-
-			div#hmenu ul a:hover{
-				/*background-color:#dddddd;*/
-				background-color:#808080;
-				border-radius:15px;
-				color: white;
-			}
-
-			div#hmenu ul a:visited{
-				color: black;
-			}
-			div#hmenu ul a:visited:hover{
-				color: white;
-			}
-
-			/* Nice and simple implementation of a sticky footer
-			http://mystrd.at/modern-clean-css-sticky-footer/
-			http://mystrd.at/data/sticky_footer.html*/
-			html {
-				position: relative;
-				min-height: 100%;
-			}
-			body {
-				margin: 0 0 100px; /* bottom = footer height */
-			}
-			footer {
-				position: absolute;
-				left: 0;
-				bottom: 0;
-				height: 100px;
-				width: 100%;
-			}
-
-			#profile-photo {
-    		float: left;
-    		border: 1px solid black;
-				/*margin: top right bottom left*/
-    		/*margin: 0px 0px 15px 20px;*/
-				margin: 0em 2em 1em 0em;
-			}
-
-		</style>
-	</head>
 	<body>
-		<div>
-		<div id="name">
-			<h1 translate="no">Hirokazu Miyake</h1>
-		</div>
-		<div id="hmenu">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="physics.html">Physics</a></li>
-				<li><a href="datascience.html">Data Science</a></li>
-				<li><a href="publications.html">Publications</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</div>
+        <h1 id="headerName" translate="no">Hirokazu Miyake</h1>
+		<ul id="headerMenu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="physics.html">Physics</a></li>
+			<li><a href="datascience.html">Data Science</a></li>
+			<li><a href="publications.html">Publications</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
 
-		<div style="margin: auto; border-bottom:thin solid black; width:80%; margin-bottom:2em"></div>
+		<h2 style="text-align:center" id="Data_Science">Data Science</h2>
+		<p>Data science broadly encompasses ideas and techniques,
+            including machine learning and deep learning, to
+            analyze data in a quantitative and systematic way to
+            extract actionable insights.
+            Some of my projects in this area can be seen at
+			<a target="_blank" href="https://github.com/hiromiyake">my GitHub page</a>,
+			and below are a few specific projects with links.
+            Further below, I list some resources I found helpful in
+            learning about the technical aspects of data science.
+        </p>
 
-		<div>
-			<h2 style="text-align:center; font-family:sans-serif" id="Data_Science">Data Science</h2>
-			<!--<h2 style="text-align:center; font-family:Quando,Rockwell,serif" id="Data_Science">Data Science</h2>-->
-			<p style="margin-left:10%; margin-right:10%">
-				<!--<a target="_blank" href="http://jqi.umd.edu/people/hirokazu-miyake"><img src="photo.jpg" id="profile-photo" width="150em"></a>-->
-				In addition to physics, I'm interested in how data science and machine learning
-				can lead to insights on various forms of data. Some of my projects in this area can be seen at
-				<a target="_blank" href="https://github.com/hiromiyake">my GitHub page</a>.
-				Below are a few of my projects hosted at GitHub, with links. Further below,
-				I list some resources I found helpful in learning about the technical aspects of data science.
-      </p>
-			<p style="text-align:center; padding-bottom:0em">
-				<!--<a target="_blank" href="https://www.linkedin.com/in/hirokazu-miyake-95929545/"><img src="linkedin.png" alt="LinkedIn" hspace="50em" height="40em"></a>-->
-			  <a target="_blank" href="https://github.com/hiromiyake"><img src="GitHub.png" alt="GitHub" hspace="50em" height="40em"></a>
-			</p>
+		<p style="text-align:center; padding-top:1em">
+		  <a target="_blank" href="https://github.com/hiromiyake">
+              <img src="figures/GitHub.png" alt="GitHub" hspace="50em" height="40em"></a>
+		</p>
 
-			<h3 style="text-align:center; font-family:sans-serif">Select Projects</h3>
-			<ul style="margin-left:10%; margin-right:10%;font-size:1.1em">
-				<li><a target="_blank" href="https://github.com/hiromiyake/arxiv-topic-trends">
-					Arxiv Topic Trend Analysis</a>
-					<br><a target="_blank" href="https://arxiv.org/">Arxiv</a> is a preprint
-					server used by many researchers in physics to post research papers for
-					general viewing. I explored the general trend of a few topics over the
-					years using their API with Python.
-				</li>
-				<li><a target="_blank" href="https://github.com/hiromiyake/movie-recommender">
-					Movie Recommender with Collaborative Filtering</a>
-					<br>I implement a movie recommendation system based on collaborative filtering in Python.
-					The movie rating data is taken from the
-					<a target="_blank" href="https://grouplens.org/datasets/movielens/">MovieLens</a> website.
-				</li>
-				<li><a target="_blank" href="https://github.com/hiromiyake/word-prediction">
-					Word Prediction</a>
-					<br>I developed an ngram model for word prediction in R. This was deployed
-					as a <a target="_blank" href="https://hiromiyake.shinyapps.io/wordprediction/">Shiny app</a> and is written up in an R Jupyter notebook.
-				</li>
-				<li><a target="_blank" href="https://github.com/hiromiyake/Sr-atom-number-variation">
-					Strontium Atom Number Variation</a>
-					<br>Jupyter notebook looking at the dependence of atom number as
-					determined from a CCD camera on a number of observables in our
-					ultracold strontium experiment, including laboratory temperature and humidity measurements.
-				</li>
-				<li><a target="_blank" href="https://github.com/hiromiyake/PCA-cold-atom-images">
-					PCA on Cold Atom Images</a>
-					<br>Python files that can be used to subtract unwanted fringes on
-					cold atom absorption images taken with CCD cameras. This was created
-					to be used with cold atom experiments for image analysis, and is
-					based on the technique of principal component analysis.
-				</li>
-			</ul>
+		<h3 style="text-align:center">Select Projects</h3>
+		<ul style="margin-left:10%; margin-right:10%; font-size:18px">
+			<li><a target="_blank" href="https://github.com/hiromiyake/arxiv-topic-trends">
+				Arxiv Topic Trend Analysis</a>
+				<br><a target="_blank" href="https://arxiv.org/">Arxiv</a>
+                is a preprint server used by many researchers in physics
+                to post research papers for general viewing. I explored
+                the general trend of a few topics over the years using
+                their API with Python.
+			</li>
+			<li><a target="_blank" href="https://github.com/hiromiyake/movie-recommender">
+				Movie Recommender with Collaborative Filtering</a>
+				<br>I implemented a movie recommendation system based
+                on collaborative filtering in Python. The movie rating
+                data is taken from the
+				<a target="_blank" href="https://grouplens.org/datasets/movielens/">MovieLens</a>
+                website.
+			</li>
+			<li><a target="_blank" href="https://github.com/hiromiyake/word-prediction">
+				Word Prediction</a>
+				<br>I developed an ngram model for word prediction in R.
+                This was deployed as a
+                <a target="_blank" href="https://hiromiyake.shinyapps.io/wordprediction/">Shiny app</a>
+                and is written up in an R Jupyter notebook.
+			</li>
+			<li><a target="_blank" href="https://github.com/hiromiyake/Sr-atom-number-variation">
+				Strontium Atom Number Variation</a>
+				<br>Jupyter notebook looking at the dependence of
+                atom number as determined from a CCD camera on a number
+                of observables in our ultracold strontium experiment,
+                including laboratory temperature and humidity measurements.
+			</li>
+			<li><a target="_blank" href="https://github.com/hiromiyake/PCA-cold-atom-images">
+				PCA on Cold Atom Images</a>
+				<br>Python files that can be used to subtract unwanted
+                fringes on cold atom absorption images taken with
+                CCD cameras. This was created to be used with cold atom
+                experiments for image analysis, and is based on the
+                technique of principal component analysis.
+			</li>
+		</ul>
 
-			<h3 style="text-align:center; font-family:sans-serif">Learning Resources</h3>
-			<p style="margin-left:10%; margin-right:10%">
-				The topics that are particularly important for a data science practitioner
-				are computer science/programming, probability and statistics, machine learning, and Structured Query Language (SQL).
-				Below are some resources, which include Massive Open Online Courses (MOOCs),
-				websites, and books, I've found particularly useful in learning about these topics.
-				I've personally gone through each of the resources listed below
-				and I believe each of them will present a worthwhile learning opportunity for
-				the relevant topics.
-				Aside from most of the books, all of the resources listed below are accessible online for free.
-				<!--<a target="_blank" href="http://jqi.umd.edu/people/hirokazu-miyake"><img src="photo.jpg" id="profile-photo" width="150em"></a>-->
-      </p>
+		<h3 style="text-align:center">Learning Resources</h3>
+		<p>The topics that are particularly important for a data
+            science practitioner are 1) computer science/programming,
+            2) probability and statistics, 3) machine learning, and
+            4) Structured Query Language (SQL). Below is a list of
+            some resources,
+            which include Massive Open Online Courses (MOOCs),
+			websites, and books, I've found particularly useful
+            in learning about these topics and preparing for
+            data science job interviews. I've personally gone
+            through each of the resources and
+            believe each of them will be worth your time
+            at least for your intellectual enrichment, if not
+            to help you do well in your data science job interviews.
+            They would be most appropriate for people who have
+            some college-level math and computer science experience.
+			Aside from most of the books, most of the resources
+            listed below are accessible online for free.
+        </p>
 
-			<h3 style="margin-left:10%; margin-right:10%; font-family:serif">General Data Science-Related Books</h3>
-			<ol style="margin-left:10%; margin-right:10%;font-size:1.1em">
-				<li>The Signal and the Noise
-					<br>Nate Silver, Penguin Books, 2015.
-					<br>Readable account of various applications of analytics in the real world.
-				</li>
-				<li>Thinking, Fast and Slow
-					<br>Daniel Kahneman, Farrar, Straus and Giroux, 2011.
-					<br>Primarily about behavioral economics but the techniques and lessons are broadly applicable to data science.
-				</li>
-				<li>Naked Statistics
-					<br>Charles Wheelan, W. W. Norton and Company, 2013.
-					<br>Nice, readable book on fundamental probability and statistics.
-				</li>
-				<li>How to Lie with Statistics
-					<br>Darrell Huff, W. W. Norton and Company, 1993.
-					<br>Short, readable book on the pitfalls of statistics used in the real world.
-				</li>
-				<li>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy
-					<br>Cathy O'Neil, Broadway Books, 2017.
-					<br>Describes some of the pitfalls which should ideally be considered in a data science product.
-			</ol>
+		<h3 style="margin-left:10%; margin-right:10%">General Data Science-Related Books</h3>
+		<ol style="margin-left:10%; margin-right:10%;font-size:18px">
+			<li>The Signal and the Noise
+				<br>Nate Silver, Penguin Books, 2015.
+				<br>Readable account of various applications of
+                analytics in the real world.
+			</li>
+			<li>Thinking, Fast and Slow
+				<br>Daniel Kahneman, Farrar, Straus and Giroux, 2011.
+				<br>Primarily about behavioral economics but the
+                techniques and lessons are broadly applicable to
+                data science.
+			</li>
+			<li>Naked Statistics
+				<br>Charles Wheelan, W. W. Norton and Company, 2013.
+				<br>Nice, readable book on fundamental probability
+                and statistics.
+			</li>
+			<li>How to Lie with Statistics
+				<br>Darrell Huff, W. W. Norton and Company, 1993.
+				<br>Short, readable book on the pitfalls of
+                statistics used in the real world.
+			</li>
+			<li>Weapons of Math Destruction: How Big Data Increases
+                Inequality and Threatens Democracy
+				<br>Cathy O'Neil, Broadway Books, 2017.
+				<br>Describes some of the pitfalls which should
+                ideally be considered in a data science product.
+		</ol>
 
-			<h3 style="margin-left:10%; margin-right:10%; font-family:serif">Computer Science and Programming</h3>
-			<ol style="margin-left:10%; margin-right:10%;font-size:1.1em">
-				<li><a target="_blank" href="https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10">
-					MIT - 6.00.1x: Introduction to Computer Science and Programming Using Python</a>
-				</li>
-				<li><a target="_blank" href="https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-5#!">
-					MIT - 6.00.2x: Introduction to Computational Thinking and Data Science</a>
-					<br>Two-part edX courses which teach you both foundational computer science and coding in Python.
-				</li>
-				<li><a target="_blank" href="https://www.coursera.org/learn/algorithms-part1">
-					Princeton - Algorithms, Part I</a>
-				</li>
-				<li><a target="_blank" href="https://www.coursera.org/learn/algorithms-part2">
-					Princeton - Algorithms, Part II</a>
-					<br>Two-part Coursera course on algorithms. Programming assignments are in Java. Challenging but worth the effort.
-				</li>
-				<li><a target="_blank" href="https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/about">
-					Stanford - Algorithms: Design and Analysis</a>
-				</li>
-				<li><a target="_blank" href="https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms2+SelfPaced/about">
-					Stanford - Algorithms: Design and Analysis 2</a>
-					<br>Another two-part course on algorithms covering similar topics as the Princeton one. You can use any programming language to complete the programming assignments.
-				</li>
-				<li><a target="_blank" href="https://leetcode.com/">
-					https://leetcode.com/</a>
-				</li>
-				<li><a target="_blank" href="https://www.hackerrank.com/">
-					https://www.hackerrank.com/</a>
-					<br>Two websites with hundreds of coding challenges to help you prepare for software engineering interviews.
-					HackerRank is easier to start if you are new to coding problems, with many tutorials. LeetCode throws you in the deep end and there is little hand holding.
-				</li>
-			</ol>
+		<h3 style="margin-left:10%; margin-right:10%">Computer Science and Programming</h3>
+		<ol style="margin-left:10%; margin-right:10%;font-size:18px">
+			<li><a target="_blank" href="https://www.edx.org/course/introduction-to-computer-science-and-programming-7">
+				MITx: Introduction to Computer Science and
+                Programming Using Python</a>
+			</li>
+			<li><a target="_blank" href="https://www.edx.org/course/introduction-to-computational-thinking-and-data-4">
+				MITx: Introduction to Computational Thinking and
+                Data Science</a>
+				<br>Two-part edX courses which teach you both
+                foundational computer science and coding in Python.
+			</li>
+			<li><a target="_blank" href="https://www.coursera.org/learn/algorithms-part1">
+				Princeton - Algorithms, Part I</a>
+			</li>
+			<li><a target="_blank" href="https://www.coursera.org/learn/algorithms-part2">
+				Princeton - Algorithms, Part II</a>
+				<br>Two-part Coursera course on algorithms.
+                Programming assignments are in Java. Challenging
+                but worth the effort.
+			</li>
+			<li><a target="_blank" href="https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/about">
+				Stanford - Algorithms: Design and Analysis</a>
+			</li>
+			<li><a target="_blank" href="https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms2+SelfPaced/about">
+				Stanford - Algorithms: Design and Analysis 2</a>
+				<br>Another two-part course on algorithms covering
+                similar topics as the Princeton one. You can use any
+                programming language to complete the programming assignments.
+			</li>
+			<li><a target="_blank" href="https://leetcode.com/">
+				https://leetcode.com/</a>
+			</li>
+			<li><a target="_blank" href="https://www.hackerrank.com/">
+				https://www.hackerrank.com/</a>
+				<br>Two websites with hundreds of coding challenges
+                to help you prepare for software engineering interviews.
+				HackerRank is easier to start if you are new to coding
+                problems, with many tutorials. LeetCode throws you in
+                the deep end and there is little hand holding.
+			</li>
+		</ol>
 
-			<h3 style="margin-left:10%; margin-right:10%; font-family:serif">Probability and Statistics</h3>
-			<ol style="margin-left:10%; margin-right:10%;font-size:1.1em">
-				<li><a target="_blank" href="https://lagunita.stanford.edu/courses/course-v1:OLI+ProbStat+Open_Jan2017/about">
-					Stanford - Probability and Statistics</a>
-					<br>Basic but solid introduction to probability and statistics from Stanford.
-				</li>
-				<li><a target="_blank" href="https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2">
-					MIT - 6.041x: Introduction to Probability - The Science of Uncertainty</a>
-					<br>If the first course was too easy for you, this should provide more of a challenge. Great edX MOOC on probability.
-				</li>
-				<li><a target="_blank" href="https://www.edx.org/course/fundamentals-of-statistics">
-					MITx: Fundamentals of Statistics</a>
-					<br>A continuation of the above course on probability, focusing on statistics in a rigorous yet accessible way.
-				</li>
+		<h3 style="margin-left:10%; margin-right:10%">Probability and Statistics</h3>
+		<ol style="margin-left:10%; margin-right:10%;font-size:18px">
+			<li><a target="_blank" href="https://lagunita.stanford.edu/courses/course-v1:OLI+ProbStat+Open_Jan2017/about">
+				Stanford - Probability and Statistics</a>
+				<br>Basic but solid introduction to probability
+                and statistics from Stanford.
+			</li>
+			<li><a target="_blank" href="https://www.edx.org/course/probability-the-science-of-uncertainty-and-data">
+				MITx: Probability - The Science of Uncertainty and Data</a>
+				<br>If the first course was too easy for you,
+                this should provide more of a challenge.
+                Great edX MOOC on probability.
+			</li>
+			<li><a target="_blank" href="https://www.edx.org/course/fundamentals-of-statistics">
+				MITx: Fundamentals of Statistics</a>
+				<br>A continuation of the above course on probability,
+                focusing on statistics in a rigorous yet accessible way.
+			</li>
 
-				<li><a target="_blank" href="https://www.udacity.com/course/ab-testing--ud257">
-					A/B Testing</a>
-					<br>A Udacity course on A/B testing, which is essentially applied hypothesis testing as used in data science.
-				</li>
-				<li>Statistics, 4th edition by D. Freedman, R. Pisani, and R. Purves, W. W. Norton and Company, 2007.
-					<br>Excellent book on statistics. Pretty basic at the beginning,
-					but by the end you will be able to explain in plain English what
-					confidence intervals, hypothesis tests, and p values really are.
-				</li>
-			</ol>
+			<li><a target="_blank" href="https://www.udacity.com/course/ab-testing--ud257">
+				Udacity A/B Testing</a>
+				<br>A course on A/B testing, which is essentially
+                applied hypothesis testing as used in data science.
+			</li>
+			<li>Statistics, 4th edition by D. Freedman, R. Pisani,
+                and R. Purves, W. W. Norton and Company, 2007.
+				<br>Excellent book on statistics. Pretty basic at
+                the beginning, but by the end you will be able to
+                explain in plain English what confidence intervals,
+                hypothesis tests, and p values really are.
+			</li>
+		</ol>
 
-			<h3 style="margin-left:10%; margin-right:10%; font-family:serif">Machine Learning</h3>
-			<ol style="margin-left:10%; margin-right:10%;font-size:1.1em">
-				<li><a target="_blank" href="https://www.coursera.org/learn/machine-learning">
-					Stanford - Machine Learning</a>
-					<br>Classic, accessible course on machine learning, from linear regression up to neural networks. You'll work with MATLAB/Octave.
-				</li>
-				<li><a target="_blank" href="https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about">
-					Stanford - Statistical Learning</a>
-					<br>Another great course on machine learning. Covers various regressions as well as topics like cross validation.
-				</li>
-				<li><a target="_blank" href="https://www.edx.org/course/analytics-edge-mitx-15-071x-3">
-					MIT - 15.071x: The Analytics Edge</a>
-					<br>Course covers many common machine learning algorithms, as well as linear programming. Also serves as a crash course on R.
-				</li>
-				<li>An Introduction to Statistical Learning by G. James, D. Witten, T. Hastie, and R. Tibshirani, Springer, 2014.
-					<br>Excellent introductory book on machine learning which is free
-					online <a target="_blank" href="http://www-bcf.usc.edu/~gareth/ISL/">here</a>. The above
-					statistical learning MOOC is based off of this book. This book is more accessible
-					and probably sufficient to get into data science than the book <a target="_blank" href="https://web.stanford.edu/~hastie/ElemStatLearn//">Elements of Statistical Learning</a>.
-				</li>
-			</ol>
+		<h3 style="margin-left:10%; margin-right:10%">Machine Learning</h3>
+		<ol style="margin-left:10%; margin-right:10%;font-size:18px">
+			<li><a target="_blank" href="https://www.coursera.org/learn/machine-learning">
+				Stanford - Machine Learning</a>
+				<br>Classic, accessible Coursera course on machine learning,
+                from linear regression up to neural networks.
+                You'll work with MATLAB/Octave.
+			</li>
+			<li><a target="_blank" href="https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about">
+				Stanford - Statistical Learning</a>
+				<br>Another great course on machine learning.
+                Covers various regressions as well as topics
+                like cross validation.
+			</li>
+			<li><a target="_blank" href="https://www.edx.org/course/the-analytics-edge">
+				MITx: The Analytics Edge</a>
+				<br>This edX course covers many common machine learning
+                algorithms, as well as linear programming.
+                Also serves as a crash course on R.
+			</li>
+			<li>An Introduction to Statistical Learning by G. James,
+                D. Witten, T. Hastie, and R. Tibshirani, Springer, 2014.
+				<br>Excellent introductory book on machine learning
+                which is free online
+                <a target="_blank" href="http://faculty.marshall.usc.edu/gareth-james/ISL/">
+                    here</a>.
+                The above statistical learning MOOC is based off of
+                this book. This book is more accessible and probably
+                sufficient to get into data science than the book
+                <a target="_blank" href="https://web.stanford.edu/~hastie/ElemStatLearn/">
+                    Elements of Statistical Learning</a>.
+			</li>
+            <li>[Advanced] <a target="_blank" href="https://www.coursera.org/specializations/deep-learning">
+                Coursera Deep Learning Specialization by deeplearning.ai</a>
+                <br>This series covers the fundamentals of deep learning,
+                including convolutional and recurrent neural networks.
+            </li>
+            <li>[Advanced] <a target="_blank" href="https://see.stanford.edu/Course/CS229">
+                Stanford CS229 - Machine Learning</a>
+                <br>If you found that the first Coursera machine
+                learning course was not rigorous enough,
+                this course goes into more detail by the same instructor.
+		</ol>
 
-			<h3 style="margin-left:10%; margin-right:10%; font-family:serif">Structured Query Language (SQL)</h3>
-			<ol style="margin-left:10%; margin-right:10%;font-size:1.1em; padding-bottom:2em">
-				<li><a target="_blank" href="https://www.sqlteaching.com/">
-					https://www.sqlteaching.com/</a>
-					<br>If you are new to SQL, then this website gives you a quick, hands-on introduction to SQL.
-					This can be completed in a few hours. No frills but is a good place to start.
-				</li>
-				<li><a target="_blank" href="http://sqlzoo.net/">
-					http://sqlzoo.net/</a>
-					<br>This is a good place to further improve your SQL skills. It has significantly more exercises than the one above.
-				</li>
-				<li><a target="_blank" href="https://lagunita.stanford.edu/courses/Home/Databases/Engineering/about">
-					Stanford - Databases</a>
-					<br>This MOOC from Stanford is a set of concise but comprehensive
-					courses on databases. It is especially useful to learn about the
-					theory of database design and to go beyond just querying databases in SQL.
-				</li>
-				<li><a target="_blank" href="https://leetcode.com/">
-					https://leetcode.com/</a>
-				</li>
-				<li><a target="_blank" href="https://www.hackerrank.com/">
-					https://www.hackerrank.com/</a>
-					<br>Again, as with programming, these two websites provide more practice to hone your SQL skills.
-				</li>
-			</ol>
-
-			<!--<p style="text-align:center; margin-top:-1.5em">I can be reached here.</p>-->
-		</div>
-	</div>
-
-
+		<h3 style="margin-left:10%; margin-right:10%">Structured Query Language (SQL)</h3>
+		<ol style="margin-left:10%; margin-right:10%;font-size:18px">
+			<li><a target="_blank" href="https://www.sqlteaching.com/">
+				https://www.sqlteaching.com/</a>
+				<br>If you are new to SQL, then this website gives
+                you a quick, hands-on introduction to SQL.
+				This can be completed in a few hours.
+                No frills but is a good place to start.
+			</li>
+			<li><a target="_blank" href="http://sqlzoo.net/">
+				http://sqlzoo.net/</a>
+				<br>This is a good place to further improve your
+                SQL skills. It has significantly more exercises
+                than the one above.
+			</li>
+			<li><a target="_blank" href="https://lagunita.stanford.edu/courses/Home/Databases/Engineering/about">
+				Stanford - Databases</a>
+				<br>This MOOC from Stanford is a set of concise
+                but comprehensive courses on databases. It is especially
+                useful if you want to learn about the theory of database design
+                and to go beyond just querying existing databases in SQL.
+			</li>
+			<li><a target="_blank" href="https://leetcode.com/">
+				https://leetcode.com/</a>
+			</li>
+			<li><a target="_blank" href="https://www.hackerrank.com/">
+				https://www.hackerrank.com/</a>
+				<br>Again, as with programming, these two
+                websites provide more practice to hone your SQL skills.
+			</li>
+		</ol>
 	</body>
 </html>

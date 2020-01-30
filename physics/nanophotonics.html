@@ -1,171 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Hirokazu Miyake | Physics | Nanophotonics</title>
-		<!--<link href='http://fonts.googleapis.com/css?family=Quando' rel='stylesheet' type='text/css'>-->
-		<!--<link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>-->
-		<style>
-			body{
-				/*background-color:#F5F5F5;*/
-				/*F5F5F5 white smoke; FFEFD5 papaya whip; FAF0E6 linen;
-				D3D3D3 light gray; E6E6FA lavender; DCDCDC gainsboro;
-				F0F8FF alice blue; F0FFFF azure*/
-				/*background-color:#F0FFFF;*/
-				/*background-color: rgb(230, 255, 230)*/;
-			}
+    <head>
+        <meta charset="utf-8">
+        <title>Hirokazu Miyake | Physics | Nanophotonics</title>
+        <link href="../css/styles.css" type="text/css" rel="stylesheet">
+        <link href="../figures/h-favicon.png" rel="icon">
+    </head>
 
-			div p {
-				font-size:1.1em;
-			}
-
-			#name{
-				font-family:sans-serif;
-				/*font-family:"Quando","Rockwell",serif;*/
-				font-size:1em;
-				font-weight:lighter;
-				text-align:center;
-				margin: auto;
-				border-bottom:thin solid black;
-				width:80%;
-				/*padding-bottom:1em;*/
-				margin-top:2.0em;
-			}
-
-			div#hmenu {
-				margin: 0;
-				padding: .3em 0 .3em 0;
-				/*background: #ddeebb;*/
-				width: 100%;
-				text-align: center;
-			}
-
-			div#hmenu ul {
-				list-style: none;
-				margin: 0;
-				padding: 0;
-			}
-
-			div#hmenu ul li {
-				margin: 0;
-				padding: 0;
-				display: inline;
-			}
-
-			div#hmenu ul a:link{
-				margin: 0;
-				/*padding: .3em .4em .3em .4em;*/
-				text-decoration: none;
-				/*font-weight: bold;*/
-				font-size: medium;
-				/*color: #004415;*/
-
-				/*display: block;*/
-				/*Controls the width of the top horizontal menu items*/
-				padding: .2em 2.0em .2em 2.0em;
-				color: black;
-				font-family:sans-serif;
-				/*font-family: "Quando","Rockwell",serif;*/
-				font-size: 1.25em;
-
-				/*display:block;
-				width: 8em;
-				text-decoration: none;
-				text-align: center;
-				color:black;
-				font-family: "Rockwell",sans-serif;
-				border-radius:15px;
-				font-size:1.5em;*/
-			}
-
-			div#hmenu ul a:hover{
-				/*background-color:#dddddd;*/
-				background-color:#808080;
-				border-radius:15px;
-				color: white;
-			}
-
-			div#hmenu ul a:visited{
-				color: black;
-			}
-			div#hmenu ul a:visited:hover{
-				color: white;
-			}
-
-			/* Nice and simple implementation of a sticky footer
-			http://mystrd.at/modern-clean-css-sticky-footer/
-			http://mystrd.at/data/sticky_footer.html*/
-			html {
-				position: relative;
-				min-height: 100%;
-			}
-			body {
-				margin: 0 0 100px; /* bottom = footer height */
-			}
-			footer {
-				position: absolute;
-				left: 0;
-				bottom: 0;
-				height: 100px;
-				width: 100%;
-			}
-
-		</style>
-	</head>
 	<body>
-		<div>
-		<div id="name">
-			<h1 translate="no">Hirokazu Miyake</h1>
-		</div>
-		<div id="hmenu">
-			<ul>
-				<li><a href="../index.html">Home</a></li>
-				<li><a href="../physics.html">Physics</a></li>
-				<li><a href="../datascience.html">Data Science</a></li>
-				<li><a href="../publications.html">Publications</a></li>
-				<li><a href="../about.html">About</a></li>
-			</ul>
-		</div>
+        <h1 id="headerName" translate="no">Hirokazu Miyake</h1>
+		<ul id="headerMenu">
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../physics.html">Physics</a></li>
+			<li><a href="../datascience.html">Data Science</a></li>
+			<li><a href="../publications.html">Publications</a></li>
+			<li><a href="../about.html">About</a></li>
+		</ul>
 
-		<div style="margin: auto; border-bottom:thin solid black; width:80%; margin-bottom:2em"></div>
+		<h2 style="text-align:center">Physics: Nanophotonics</h2>
+		<p>More and more of human activity involves digital data.
+            Managing the corresponding worldwide demand for
+            increased data consumption and faster data processing
+            can be helped by both fundamental and applied research on photonic
+            systems. Photonic systems are unique because information
+            can travel at the speed of light and can be relatively immune
+            to environmental noise. Furthermore, individual light particles,
+            i.e., photons, can act as an intermediary between
+            quantum particles, and so photonic systems may be an
+            important component in the
+            realization of quantum computers which could dramatically
+            speed up certain computational tasks, for example
+            factoring the product of two large prime numbers as outlined by
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Shor%27s_algorithm">Shor's algorithm</a>.
+            One direction of research in this area called nanophotonics
+            is to take advantage of nanofabrication techniques developed by the
+            electronics industry to create novel nano-scale
+            photonic structures for guiding and manipulating light.
+		</p>
 
-		<div style="padding-bottom:1em">
-			<h2 style="text-align:center; font-family:sans-serif" id="Research">Physics: Nanophotonics</h2>
-			<p style="margin-left:10%; margin-right:10%">Managing worldwide demand for
-				increased data consumption and faster data processing requires both
-				fundamental and applied research on photonic systems to take full
-				advantage of their potential for large bandwidth and fast speed
-				as well as their potential role in quantum information processing for dramatic speed up
-				of <a target="_blank" href="https://en.wikipedia.org/wiki/Shor%27s_algorithm">certain computational tasks</a>. One direction of research in this area is to take
-				advantage of micro and nanofabrication techniques developed by the electronics
-				industry to process silicon to create novel chip-scale photonic structures for
-				guiding and manipulating light.
-			</p>
-			<figure>
-				<img src="sem_images.png" alt="SEM image of photonic crystals" title="SEM image of a photonic crystals" style="height:16em;margin-left:auto;margin-right:auto;display:block">
-				<figcaption style="text-align:center;padding-top:0.5em;margin-left:10%; margin-right:10%;font-family:sans-serif">
-					Left figure is a scanning electron microscope (SEM) image of a nanoscale grating
-					and topological photonic crystal waveguide fabricated with gallium arsenide.
-					Right figure is a SEM image of a nanoscale photonic crystal cavity fabricated with gallium arsenide.
-				</figcaption>
-			</figure>
-			<p style="margin-left:10%; margin-right:10%">I have worked in the area of nanophotonics with
-					<a target="_blank" href="http://hafezi.umd.edu/">Professor Mohammad Hafezi</a> and
-					<a target="_blank" href="http://www.ireap.umd.edu/NanoPhotonics/">Professor Edo Waks</a>
-					at the University of Maryland and the Joint Quantum Institute to create novel photonic systems. In particular, I have explored nanophotonic systems
-					that have interesting topological properties which can be applied to
-					chip-scale photon transport that is robust to fabrication imperfections. Towards this goal, we theoretically <a target="_blank" href="http://iopscience.iop.org/article/10.1088/1367-2630/18/11/113013">proposed</a>
-					and experimentally <a target="_blank" href="http://science.sciencemag.org/content/359/6376/666">
-						created and observed</a> a new type of nanoscale photonic crystal which possess topological edge states that propagate in only one direction.</p>
-					<figure>
-						<img src="../tpc.jpg" alt="Schematic and electric field intensity of a topological edge state" title="Schematic and electric field intensity of a topological edge state" style="height:10em;margin-left:auto;margin-right:auto;display:block">
-						<figcaption style="text-align:center;padding-top:0.5em;margin-left:10%; margin-right:10%;font-family:sans-serif">Left figure is a schematic
-								of the honeycomb-lattice-like photonic crystal with triangular air holes in a dielectric substrate and right figure is the electric field intensity of the topological edge state. Note the edge state goes around sharp corners
-								without decreasing in intensity, indicating that the edge state is topologically protected. The mode is excited around a wavelength of 940 nm.
-							</figcaption>
-					</figure>
-		</div>
+		<figure>
+            <img src="figures/topological_photonic_crystal.png"
+                 alt="SEM image of photonic crystals"
+                 title="SEM image of photonic crystals"
+                 style="margin-left:auto;margin-right:auto;display:block">
+			<figcaption style="text-align:center;padding-top:1.5em;margin-left:10%; margin-right:10%">
+				Scanning electron microscope (SEM) images of
+                topological photonic crystal waveguides fabricated
+                with gallium arsenide.
+				Right figure is a zoom up of the left structure
+                at the boundary where the light travels.
+                More details can be found in our paper
+                <a target="_blank" href="https://arxiv.org/abs/1711.00478">arXiv:1711.00478 [quant-ph]</a>.
+			</figcaption>
+		</figure>
 
+		<p>I worked in the area of nanophotonics at the
+            <a target="_blank" href="https://umdphysics.umd.edu/">University of Maryland</a>
+            and the
+            <a target="_blank" href="https://jqi.umd.edu/">Joint Quantum Institute</a>
+            to create novel photonic waveguide systems that can travel
+            around corners without significant loss and are robust to
+            fabrication imperfections. This will be important in
+            the mass production of photonic integrated circuits
+            with complicated circuit topologies. We realized this
+            new photonic waveguide by
+            engineering the topological properties of the photonic crystal
+            band structure. Our theoretical results were published in
+            <a target="_blank" href="http://iopscience.iop.org/article/10.1088/1367-2630/18/11/113013">New Journal of Physics 18, 113013 (2016)</a>
+            and our experimental results were published in
+            <a target="_blank" href="http://science.sciencemag.org/content/359/6376/666">Science 359, 666 (2018)</a>.
+        </p>
 
+		<figure>
+			<img src="figures/tpc.jpg"
+                 alt="Schematic and electric field intensity simulation of a topological edge state"
+                 title="Schematic and electric field intensity simulation of a topological edge state"
+                 style="height:200px;margin-left:auto;margin-right:auto;display:block">
+			<figcaption style="text-align:center;padding-top:1.5em;margin-left:10%; margin-right:10%">
+                Left figure is a schematic of the honeycomb-lattice-like
+                photonic crystal with triangular air holes in a dielectric
+                substrate and right figure is a simulation of the
+                electric field intensity of the topological edge state.
+                Note the edge state goes around sharp corners without
+                decreasing in intensity, indicating that the edge state
+                is topologically protected. The mode is excited around a
+                wavelength of 940 nm. More details can be found in our paper
+                <a target="_blank" href="http://iopscience.iop.org/article/10.1088/1367-2630/18/11/113013">New Journal of Physics 18, 113013 (2016)</a>.
+			</figcaption>
+		</figure>
 	</body>
 </html>
