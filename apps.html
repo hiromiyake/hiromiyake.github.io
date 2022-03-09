@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hirokazu Miyake | Home</title>
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+        <link href="figures/h-favicon.png" rel="icon">
+    </head>
+
+	<body>
+        <h1 id="headerName" translate="no">Hirokazu Miyake</h1>
+		<ul id="headerMenu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="physics.html">Physics</a></li>
+			<li><a href="datascience.html">Data Science</a></li>
+			<li><a href="apps.html">Apps</a></li>
+			<li><a href="publications.html">Publications</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+
+        <h2 style="text-align:center" id="Apps">Apps</h2>
+        <p>
+            Below are some simple apps I created to learn how to use JavaScript.
+        </p>
+
+        <h2>How old am I?</h2>
+        <p>
+            <label for="birthyear">Enter the year you were born to figure out
+                how old you are today:</label>
+            <input type="text" id="birthyear">
+            <br>
+            <p id="feedback1" style="padding-top: 0.5em"></p>
+            <p id="feedback2"></p>
+        </p>
+
+        <h2>Investment growth</h2>
+        <p>
+            Assume that interest is compounded monthly, where the interest rate
+            below is the annual interest rate.
+            <br>
+            <label for="investment">Enter initial investment amount:</label>
+            <input type="text" id="investment" value=1000>
+            <br>
+            <label for="interest_rate">Enter interest rate in percent per year:</label>
+            <input type="text" id="interest_rate" value=5>
+            <br>
+            <label for="invest_year">Enter number of years to invest:</label>
+            <input type="number" id="invest_year" value=10>
+            <p id="feedback3" style="padding-top: 0.5em"></p>
+        </p>
+        <script src="js/app.js"></script>
+	</body>
+</html>
